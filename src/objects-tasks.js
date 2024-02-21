@@ -221,7 +221,7 @@ function Rectangle(width, height) {
 
   rectangle.width = width;
   rectangle.height = height;
-  rectangle.getArea = function () {
+  rectangle.getArea = function getArea() {
     return this.width * this.height;
   };
 
